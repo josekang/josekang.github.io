@@ -1,0 +1,291 @@
+#wrapper{
+	font-family: tahoma;
+
+}
+
+.container{
+	width:100%;
+	max-width: 1280px;
+	margin:0 auto;
+}
+
+#subheader{
+	width:100%;
+	height: 30px;
+	background: #333333;
+	color: #fff;
+	margin-top: -15px;
+}
+
+#subheader p{
+	float:left;
+	margin-top:7px;
+}
+
+#subheader a{
+	float:right;
+	line-height:30px;
+	color:#fff;
+	text-decoration: none;
+	margin-left:30px;
+}
+
+/*logo styling*/
+#main-header{
+	width: 100%;
+	height: 100px;
+	background: #336633;
+	float: left;
+	margin-top: -15px;
+}
+
+#logo{
+	width: 250px;
+	margin-top: 10px;
+	float: left;
+}
+
+#ist{
+	color:#330000;
+	font-size: 45px;
+	font-weight: bold;
+	margin-left:15px;
+	font-family: cursive; 
+}
+
+#iist{
+	color:#330000;
+	font-size: 35px;
+	font-weight: bold;
+	margin-left:15px;
+	font-family: cursive; 
+}
+
+/*seraching area styling*/
+#search{
+	width: 650px;
+	float: left;
+	padding: 20px;
+	margin-left: 50px;
+}
+
+.search-area{
+	width: 535px;
+	height: 50px;
+	background: #fff;
+	border:none;
+	border-radius: 10px;
+	float:lft;
+	padding-left: 15px;
+}
+
+.search-btn{
+	width: 100px;
+	height: 50px;
+	background: brown;
+	border:none;
+	border-radius: 10px;
+	color: #fff;
+	margin: -1px;
+	float: right;
+}
+
+/*this is for user menu styling*/
+#user-menu{
+	width: 300px;
+	float: right;
+	margin-top: 20px;
+}
+
+/*this is for user menu list styling*/
+#user-menu li{
+	float: right;
+	width: 90px;
+	text-align: center;
+	list-style: none;
+	font-size: 20px;
+	border-left: 1px solid black;
+}
+#user-menu li:hover{
+	font-size: 27px;
+	transition:all .5s ease;
+}
+#user-menu li a{
+	color: white;
+	text-decoration: none;
+}
+
+/*styling for navigation bar*/
+#navigation{
+	width:100%;
+	height: 35px;
+	background: #336633;
+	float: left;
+	box-shadow: 10px 14px 50px 2px #336633;
+}
+nav{
+	width: 1280px;
+	margin:0 auto;
+}
+nav a{
+	margin-left: 35px;
+	color: white;
+	text-decoration: none;
+}
+nav a:hover{
+	color:#000;
+	transition:all .7s ease;
+}
+
+/**categories**/
+#heading{
+	width: 100%;
+	height: auto;
+	float: left;
+	color: #333333;
+	font-size:25px;
+}
+#heading h1{
+	line-height: 35px;
+	border-left: 20px solid #333333;
+}
+ /**category box**/
+ .cate{
+ 	width: 237px;
+ 	height: 237px;
+ 	float:left;
+ 	overflow: hidden;
+ 	position: relative;
+ 	margin:0 15 30 0;
+ }
+ .cate span{
+ 	width: 100%;
+ 	height: 35px;
+ 	line-height: 35px;
+ 	background: rgba(0,0,0,0.6);
+ 	color: white;
+ 	display: block;
+ 	bottom:30px;
+ 	position: absolute;
+ 	z-index: 999;
+ 	text-align: center;
+ }
+ .cate:hover span{
+ 	color:#009900;
+ }
+
+ .cate img{
+ 	max-width: 100%;
+ 	transition:all .5s ease;
+ }
+ .cate:hover img{
+ 	transform:scale(1.3,1.3);
+ 	transition:all .5s ease;
+ }
+.prod-box{
+ 	width:235px;
+ 	height: 300px;
+ 	overflow: hidden;
+ 	margin:0 18 30 0;
+ 	position: relative;
+ 	float:left ;
+ }
+
+ .prod-box>img{
+ 	max-width: 100%;
+ }
+.prod-trans{
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%;
+	top:0;
+	left:0;
+	bottom: 0;
+	right: ;
+	position: absolute;
+	opacity: 0;
+	transition:all .5s ease;
+
+}
+
+.prod-box:hover .prod-trans{
+	opacity:1;
+	transition:all .5s ease;
+}
+.prod-feature{
+	text-align: center;
+	margin-top: -150px;
+	transition:all .5s ease;
+}
+.prod-feature p{
+	color: #00eb00
+	font-family:verdana;
+}
+.prod-box:hover .prod-feature{
+	margin-top: 150px;
+	transition:all .5s ease;
+}
+.prod-feature input{
+	width: 150px;
+	height: 35px;
+	font-size: 17px;
+}
+.offer{
+	width: 400px;
+	float: left;
+	margin-right: 10px;
+}
+
+.offer:last-child{
+	margin-right: 0px;
+}
+.offer img{
+	width:100%;
+}
+#footer{
+	width: 100%;
+	height: auto;
+	background: #f5f5f5;
+	float: left;
+}
+.footer_sub{
+	width :25%;
+	float: left;
+}
+.footer_sub_2{
+	width:20%;
+	float:left;
+}
+.footer_sub_2 ul li{
+	list-style: none;
+}
+.footer_sub_2 ul li a{
+	text-decoration: none;
+	color: #000;
+}
+.footer_sub_2 ul li a:hover{
+	text-decoration: underline;
+	color: #660000;
+}
+.footer_sub_3{
+	width:35%;
+	float:left;
+}
+.subs{
+	width: 350px;
+	border:none;
+	height: 50px;
+	padding:15px;
+	float: left;
+}
+.sub_btn{
+	height: 50px;
+	border: none;
+	background: brown;
+	float: left;
+}
+.sub_p{
+	color: #999;
+	font-style: italic
+	font-size:15px;
+}
